@@ -1,4 +1,4 @@
-format('LongG');
+lsformat('LongG');
 
 format('Compact');
 
