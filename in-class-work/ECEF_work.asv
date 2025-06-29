@@ -32,7 +32,7 @@ phi = degrees2dms(phi);
 
 lamda = atan2(ECEF.R(2), ECEF.R(1));
 
-lambda = -74
+lambda = -74;
 
 GS.phi = [32, 43, 56.4];
 
