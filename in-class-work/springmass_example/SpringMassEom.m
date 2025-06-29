@@ -3,7 +3,7 @@
 % could use a placeholder "~" for t to correct he warning
 % this function being passed into ode45 is required to have at least the 2
 % terms
-function dSdt = SpringMassEom(t, S)
+function dSdt = SpringMassEom(~, S)
 
     k = 100;
     % [N/m] Spring Const

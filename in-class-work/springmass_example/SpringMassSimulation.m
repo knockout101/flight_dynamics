@@ -29,7 +29,7 @@ So = [1; 0];
 Options = odeset('RelTol', 1E-10);
 % [] increases the accuracy of the numerical integrator.
 
-S = ode45(@SpringMassEom, to, So, Options)
+S = ode45(@SpringMassEom, to, So, Options);
 % [s,m,m/s] Numerically integrates the spring-mass system
 
 %% Plot the Results:
