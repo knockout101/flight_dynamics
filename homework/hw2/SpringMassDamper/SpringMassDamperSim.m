@@ -19,7 +19,7 @@ close('All');
 to = [0, 10];
 % [s] modeling time
 
-So = [1; 0];
+So = [4.5; 1];
 % [m, m/s] initial state
 
 Options = odeset('RelTol', 1E-10);

@@ -33,7 +33,7 @@ S = ode45(@SpringMassPendulumEoM, to, So, Options);
 
 x = S.y(1,:);
 
-y = S.y(3,:);
+y = S.y(2,:);
 
 %% Plot Results
 

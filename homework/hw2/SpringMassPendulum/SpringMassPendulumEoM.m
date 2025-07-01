@@ -21,12 +21,12 @@ function dSdt = SpringMassPendulumEoM(~, S)
     % Create the 4x1 matrix (vector)
 
     % assign each position its appropriate values 
-    dSdt(1) = S(2);
+    dSdt(1) = S(3);
 
-    dSdt(2) = L*k*S(1) / (m * sqrt(power(S(1), 2) + power(S(3), 2))) - c / m * S(2) - k / m * S(1) - g;
+    dSdt(2) = S(4);
 
-    dSdt(3) = S(4);
+    dSdt(3) = L*k*S(1) / (m * sqrt(power(S(1), 2) + power(S(2), 2))) - c / m * S(3) - k / m * S(1);
 
-    dSdt(4) = L*k*S(3) / (m * sqrt(power(S(1), 2) + power(S(3), 2))) - c / m * S(4) - k / m * S(3) - g;
+    dSdt(4) = L*k*S(2) / (m * sqrt(power(S(1), 2) + power(S(2), 2))) - (c / m) * S(4) - (k / m) * S(2) - g;
 
 end
