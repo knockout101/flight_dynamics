@@ -18,7 +18,7 @@ function SpringMassPlot(t, x)
         'FontSize', 12, ...             % [] Sets the axes font size
         'FontWeight', 'Bold', ...       % [] Sets the axes font weight
         'NextPlot', 'Add', ...          % [] New plots will not erase old ones.
-        'Parent', Window, ...            % [] Specifies the window where the axes should be
+        'Parent', Window, ...           % [] Specifies the window where the axes should be
         'XGrid', 'On', ...              % [] Turns the x-grid on
         'YGrid', 'On', ...              % [] Turns the y-grid on
         'XLim', XLim, ...               % [] Sets the limits of the x-axis
