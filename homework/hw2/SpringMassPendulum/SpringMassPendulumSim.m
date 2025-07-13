@@ -39,7 +39,7 @@ y = S.y(2,:);
 
 SpringMassPendulumPlot(x, y);
 
-%%
+%% Finish Simulation
 
 SimulationTime = toc;
 % [s] stop program timer
